@@ -1,0 +1,202 @@
+{
+    "somethingWentWrong": [
+        "Something went wrong",
+        "Kuna kitu hakiko sawa"
+    ],
+    "sessionExpired": [
+        "Your session has expired",
+        "Sesheni yako imekwisha muda wake"
+    ],
+    "500": [
+        "$t(somethingWentWrong)"
+    ],
+    "401": "$t(sessionExpired)",
+    "invalid_not_null": [
+        "This field is required",
+        "Hii sehemu inahitaji kujazwa"
+    ],
+    "invalid_number": [
+        "Value must be a number",
+        "thamani lazima iwe namba"
+    ],
+    "invalid_email": [
+        "Invalid email",
+        "barua pepe(email) sio sahihi"
+    ],
+    "invalid_password": [
+        "Password must contain 8 characters, a lowercase, an uppsercase and a special character",
+        "Neno la siri lazima iwe na (herufi, namaba au alama) 8, herufi ndogo, herufi kubwa na alama"
+    ],
+    "invalid_equal": [
+        "Fields have to be equal",
+        "Nyanja au sehemu hizi lazima ziwe sawa"
+    ],
+    "invalid_not_equal": [
+        "Fields must not be equal",
+        "Nyanja au sehemu hizi hazitakiwi ziwe sawa"
+    ],
+    "invalid_number_gt": [
+        "The number must be greater than {{n}}",
+        "Namba lazima iwe kubwa kuliko {{n}}"
+    ],
+    "invalid_number_gte": [
+        "The number must be greater or equal than {{n}}",
+        "Namba lazima iwe kubwa kuliko au sawa na {{n}}"
+    ],
+    "invalid_number_eq": [
+        "The number must be equal to {{n}}",
+        "Namba lazima iwe sawa na {{n}}"
+    ],
+    "invalid_number_lt": [
+        "The number must be lower than {{n}}",
+        "Namba lazima iwe ndogo kuliko {{n}}"
+    ],
+    "invalid_number_lte": [
+        "The number must be lower or equal than {{n}}",
+        "Namba lazima iwe ndogo au sawa na {{n}}"
+    ],
+    "invalid_required": [
+        "This field is required",
+        "Hii sehemu au nyanja inahitajika"
+    ],
+    "insufficient_chars": [
+        "The field must contain at least {{chars}} characters",
+        "Hii sehemu au nyanja lazima iwe na angalau (herufi, namaba au alama) {{chars}} "
+    ],
+    "too_many_chars": [
+        "The field must contain less than {{chars}} characters",
+        "Hii sehemu au nyanja lazima iwe na (herufi, namaba au alama) chache kuliko {{chars}}"
+    ],
+    "invalid_start": [
+        "The field must start with {{start}}",
+        "Hii sehemu au nyanja lazima ianze na {{start}}"
+    ],
+    "invalid_end": [
+        "The field must end with {{end}}",
+        "Hii sehemu au nyanja lazima iishie na {{end}"
+    ],
+    "nothing_to_show": [
+        "Nothing to show",
+        "Hakuna cha kuonyesha"
+    ],
+    "invalid_address": [
+        "Invalid account",
+        "Akaunti sio sahihi"
+    ],
+    "copied_to_clipboard": [
+        "Copied to clipboard",
+        "Imenakiliwa kwenye ubao wa nakala"
+    ],
+    "invalid_private_key": [
+        "Invalid private key",
+        "Ufunguo wa siri sio sahihi"
+    ],
+    "private_key_already_exists": [
+        "You have already imported the private key",
+        "Ufunguo wa siri umeshaingizwa"
+    ],
+    "mnemonic_already_exists": [
+        "You had already imported the mnemonic",
+        "Umeshaingiza maneno ya siri(mnemonic)"
+    ],
+    "invalid_name_ID": [
+        "Oh! {{nameID}} is not available. Maybe you have it in another account?",
+        "Duh! {{nameID}} haipo. Labda ipo kwenye account nyingine"
+    ],
+    "invalid_selected_account": [
+        "You must select an account with a balance greater than {{amountInNEAR}} NEAR.",
+        "lazima uchague akaunti yenye akiba zaidi ya {{amountInNEAR}} NEAR"
+    ],
+    "error_creating_account": [
+        "Error creating account",
+        "Kuna tatizo limetokea wakati wa kutengeneza akaunti"
+    ],
+    "insufficient_balance": [
+        "Insufficient balance. Minimum balance: {{minBalance}}",
+        "Akiba haitoshi. Kiasi cha chini:{{minBalance}}"
+    ],
+    "not_using_validators": [
+        "You are not staking with any validators.",
+        "Hauwekezi na mthibitishaji yeyote"
+    ],
+    "invalid_child_account": [
+        "You can not create {{nameID}} with your account {{currentAccount}}.",
+        "Huwezi tengeneza {{nameID}} na akaunti yako ya {{currentAccount}}."
+    ],
+    "invalid_send_same_account": [
+        "You can not send to your own account.",
+        "Huwezi kujitumia kwenye akaunti yako"
+    ],
+    "invalid_account_or_not_active": [
+        "The receiver account is invalid or does not exist",
+        "Akaunti ya mpokeaji sio sahihi au haipo"
+    ],
+    "no_transactions": [
+        "There's no transactions yet",
+        "Hakuna muamala bado"
+    ],
+    "no_nfts": [
+        "There's no NFTs yet",
+        "Hakuna NFT bado"
+    ],
+    "no_tokens": [
+        "There's no tokens yet",
+        "Hakuna tokeni bado"
+    ],
+    "no_news_now": [
+        "No new news so far",
+        "Hakuna taarifa mpya bado"
+    ],
+    "no_news_text": [
+        "Sorry, there are currently no news articles to display. Please check back later for updates.",
+        "Samahani, hakuna taarifa mpya za kuonyesha. Tafadhali cheki tena baadae"
+    ],
+    "no_validators": [
+        "There are no validators",
+        "Hakuna wathibitishaji bado"
+    ],
+    "you_are_not_staking": [
+        "You are not currently staking with any validator.",
+        "Haujawekeza na mthibitishaji yeyote hadi sasa"
+    ],
+    "no_validators_available": [
+        "There is currently no validator available for staking.",
+        "Kwa sasa hakuna mthibitishaji yeyote aliepo kwa ajili ya kuwekeza"
+    ],
+    "no_validators_found": [
+        "No validators found for this search ({{accountId}})",
+        "Hakuna wathibitishaji walipatikana kwa utafiti huu"
+    ],
+    "networkMismatch": [
+        "Network mismatch",
+        "Mitandao haiendani"
+    ],
+    "networkMismatchDescription": [
+        "This request is expecting a different network. Change the current network to another one to view request details.",
+        "Ombi hili linategemea mtandao tofauti. Tafadhali badili mtandao wako wa sasa kwenda mwingine kuweza kuona taarifa za maombi"
+    ],
+    "noConnectedSites": [
+        "No connected sites",
+        "Hakuna site ilionganishwa"
+    ],
+    "noConnectedSitesDescription": [
+        "It seems that you are not connected to any dapp with this account.",
+        "Inaonekana haujaunganishwa kwenye dapp yeyote na hii akaunti"
+    ],
+    "invalidSigner": [
+        "Invalid signer account",
+        "Akaunti ya mwenye saini sio sahihi"
+    ],
+    "invalidSignerDescription": [
+        "You have not selected the expected account to sign this request",
+        "Hujachaugua akaunti inayotakiwa isaini ombi hili"
+    ],
+    "invalidSignerRequest": [
+        "Invalid signer request",
+        "Ombi la mwenye saini sio sahihi"
+    ],
+    "invalidSignerRequestDescription": [
+        "The request does not exists. Try creating a different one.",
+        "Ombi halipo. Jaribu lingine"
+    ]
+}
